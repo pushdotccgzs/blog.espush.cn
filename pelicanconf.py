@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'webmaster@espush.cn'
-SITENAME = u'espush blog'
+SITENAME = u'espush'
 SITEURL = ''
 
 PATH = 'content'
@@ -19,17 +19,22 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+'''
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Python.org', 'http://python.org/'),)
+'''
 
 # Social widget
+'''
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+'''
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME = 'local_notmyidea'
+#GITHUB_URL = 'https://github.com/pushdotccgzs/'
+DUOSHUO_SITEURL = 'https://blog.espush.cn'
