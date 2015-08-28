@@ -5,6 +5,6 @@ Category: Blog
 Tags: pelican, publishing
 Slug: hello_world
 Authors: webmaster@espush.cn
-Summary: summary
+Summary: Hello, world
 
 Hello, world.
