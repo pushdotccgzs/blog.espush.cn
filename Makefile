@@ -15,7 +15,7 @@ FTP_TARGET_DIR=/
 SSH_HOST=espush.cn
 SSH_PORT=2200
 SSH_USER=sunday
-SSH_TARGET_DIR=/home/sunday/blog
+SSH_TARGET_DIR=/www/blog
 
 S3_BUCKET=my_s3_bucket
 

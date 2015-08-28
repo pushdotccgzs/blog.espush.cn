@@ -38,3 +38,5 @@ DEFAULT_PAGINATION = 5
 THEME = 'local_notmyidea'
 #GITHUB_URL = 'https://github.com/pushdotccgzs/'
 DUOSHUO_SITEURL = 'https://blog.espush.cn'
+
+#rsync --delete --exclude ".DS_Store" -pthrvz -c --rsh='ssh  -p 2200 ' output/ sunday@espush.cn:/www/blog

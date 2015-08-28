@@ -13,7 +13,7 @@ DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
 production = 'sunday@espush.cn:2200'
-dest_path = '/home/sunday/blog'
+dest_path = '/www/blog'
 
 # Rackspace Cloud Files configuration settings
 env.cloudfiles_username = 'my_rackspace_username'
