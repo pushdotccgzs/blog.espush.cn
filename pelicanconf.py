@@ -41,3 +41,5 @@ DUOSHUO_SITEURL = 'http://blog.espush.cn'
 
 #rsync --delete --exclude ".DS_Store" -pthrvz -c --rsh='ssh  -p 2200 ' output/ sunday@espush.cn:/www/blog
 STATIC_PATHS = ['images', ]
+DEF_OTHER_LINK = [('Espush Cloud', 'https://espush.cn/')]
+BAIDU_TONGJI = True

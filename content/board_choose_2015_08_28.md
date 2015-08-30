@@ -1,4 +1,4 @@
-Title: ESP8266开发入门指引之开发板选择
+Title: ESP8266开发入门之开发板选择
 Date: 2015-08-28 21:31
 Modified: 2015-08-28 21:31
 Category: Blog

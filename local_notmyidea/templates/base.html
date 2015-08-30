@@ -11,6 +11,8 @@
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
 
+        <link href="{{ SITEURL }}/{{ FEED }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
+
         <!--[if IE]>
             <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/html5.js"></script>
         <![endif]-->
@@ -34,6 +36,12 @@
                 {% if DISPLAY_PAGES_ON_MENU -%}
                 {% for pg in PAGES %}
                     <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
+                {% endfor %}
+                {% endif %}
+
+                {% if DEF_OTHER_LINK -%}
+                {% for name, link in DEF_OTHER_LINK %}
+                    <li><a href="{{ link }}">{{ name }}</a></li>
                 {% endfor %}
                 {% endif %}
 
