@@ -87,5 +87,7 @@ void ICACHE_FLASH_ATTR user_init(void)
 
 选择数据的起始日期，选择数据来源的设备类型，输入数据标签wd，点击图示，就可以看到你的房间温度变化图啦。
 
-这里给出电路连接图
+这是最简化的施工图：
+
+![ESP8266连接DHT111]({filename}/images/esp8266_dht111.jpg)
 
