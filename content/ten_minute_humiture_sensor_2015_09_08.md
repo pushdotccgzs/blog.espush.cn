@@ -88,5 +88,5 @@ void ICACHE_FLASH_ATTR user_init(void) {
 
 这是最简化的施工图：
 
-![ESP8266连接DHT111]({filename}/images/temperature/board.png)
+![ESP8266连接DHT111]({filename}/images/temperature/board.jpg)
 
