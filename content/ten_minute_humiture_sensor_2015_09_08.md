@@ -37,7 +37,8 @@ void ICACHE_FLASH_ATTR push_temperature(void* param) {
     if(!dht->success) return;
     if(espush_server_connect_status() != STATUS_CONNECTED) return;
     //温度数据乘以了100，因为乐鑫SDK的os_sprintf函数没有实现float浮点数类型的格式化，所以此处简单处理。将数据打上wd 标签，所谓标签即是在数居前增加的 逗号分隔的字符串，目前仅支持单标签
-    os_sprintf(buf, "wd,%d", dht->temperature * 100);
+	uint32 temperature = dht->temperature * 100;
+	os_sprintf(buf, "wd,%d", temperature);
     //将数据推送到平台。
     espush_msg_plan(buf, os_strlen(buf), get_timestamp());
 }
